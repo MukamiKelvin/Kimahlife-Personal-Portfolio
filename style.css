@@ -57,7 +57,7 @@ header {
     transform: scale(1.1);
 }
 
-nav a{ 
+nav a{
     font-size: 1.8rem;
     color: white;
     margin-left: 4rem;
@@ -75,7 +75,7 @@ nav a.active{
 @media(max-width:995px) {
     nav {
         position: absolute;
-        display: none;
+        display: ;
         top: 0%;
         right: 0;
         width: 40%;
@@ -85,7 +85,7 @@ nav a.active{
         padding: 1rem solid ;
         background-color: #161616;
         border-top: 0.1rem solid rgba(0,0,0,0.1);
-        
+
     }
     nav.active{
         display: block;
@@ -555,7 +555,7 @@ hr{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+
     color: #b74b4b;
 }
 .wrapper h1{
@@ -687,7 +687,7 @@ hr{
 }
 .container .contactInfo .box .text{
     font-weight: 500;
-   
+
 }
 
 .contactForm{
@@ -723,7 +723,7 @@ hr{
     font-size: 16px;
     max-width: 10px 0;
     pointer-events: none;
-    transition: 0.5s; 
+    transition: 0.5s;
     color: #666;
 }
 .contactForm .inputBox input:focus ~ span, .contactForm .inputBox input:valid ~ span,
