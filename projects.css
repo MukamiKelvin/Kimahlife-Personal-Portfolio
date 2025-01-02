@@ -1,0 +1,146 @@
+
+.header {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.header .a{
+    border-radius: 1px solid black;
+    color: white;
+}
+.header .a:hover{
+    color: red;
+    font-size: 33px;
+}
+/* Age calculator*/
+body {
+    margin: 0;
+    padding: 20px;
+   // overflow: hidden;
+    font-family: "Montserrat", sans-serif;
+    background-color: blueviolet;
+}
+.container{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.container h2{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+button:hover{
+    background-color: blue;
+}
+#result{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* age calculator End */
+
+/* New Year Countdown start */
+.body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    justify-content: center;
+}
+.body h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+}
+.year{
+    font-size: 5em;
+    font-weight: bold;
+    color: white;
+}
+
+.countdown{
+    color: black;
+    margin: 20px;
+    background-color: rgba(255,255,255);
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.countdown div{
+    margin: 0 15px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: -25px;
+    position: relative;
+    text-align: center;
+    width: 100px;
+}
+
+.countdown div::before{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    font-size: .35em;
+    line-height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    width: 100%;
+    height: 35px;
+
+}
+
+.countdown #day::before{
+    content: "Days";
+}
+.countdown #hour::before{
+    content: "Hours";
+}
+.countdown #minute::before{
+    content: "Minutes";
+}
+.countdown #second::before{
+    content: "Seconds";
+}
+
+/* New Year Countdown end */
