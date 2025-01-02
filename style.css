@@ -75,7 +75,7 @@ nav a.active{
 @media(max-width:995px) {
     nav {
         position: absolute;
-        display: none;
+        display: ;
         top: 0%;
         left: 0;
         width: 20%;
