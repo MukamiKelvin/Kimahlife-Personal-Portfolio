@@ -192,7 +192,7 @@ button:hover{
  form input.operator {
      color: #33ffd8;
  }
- h1 {
+ .calc h1 {
     text-align: center;
     background: grey;
     color: white;
