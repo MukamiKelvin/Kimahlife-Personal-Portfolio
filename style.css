@@ -768,12 +768,12 @@ textarea {
     }
 }
 
-.sbtn {
+.inputBox #sbtn {
     border: 1px solid #000;
     border-radius: 10px;
     background: #fff;
 }
-.sbtn:hover {
+.inputBox #sbtn:hover {
     background: #b74b4b;
     color: white;
 }
