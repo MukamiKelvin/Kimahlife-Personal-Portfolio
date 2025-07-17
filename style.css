@@ -478,7 +478,7 @@ hr{
     height: 3px;
     top: calc(125% - 1px);
     left: 0;
-    background-color: white;
+    background-color: black;
 }
 
 .subject {
@@ -510,7 +510,7 @@ hr{
     position: absolute;
     width: 0%;
     height: 7px;
-    background-color: white;
+    background-color: grey;
     border-radius: 15px;
     top: -1px;
     animation: animate 1.5s cubic-bezier(1, 0.2, 0.2, 1) forwards;
@@ -531,7 +531,7 @@ hr{
     top: 50%;
     left: 100%;
     transform: translate(-50%, -50%);
-    background-color: white;
+    background-color: black;
 }
 
 @media(max-width: 768px) {
