@@ -769,5 +769,7 @@ hr{
 .footer{
     font-size: 20px;
     text-align: center;
-    background-color: #b74b4b;
+    /*background-color: #b74b4b; */
+    color: white;
+    background-color: black;
 }
