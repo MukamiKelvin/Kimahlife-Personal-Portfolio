@@ -10,7 +10,7 @@
     font-family: 'Poppins', sans-serif;
 }
 #header:hover{
-    color: #b74b4b;
+    color: #b74b4b; 
     font-size: 24px;
 }
 
@@ -766,6 +766,16 @@ textarea {
     .contactForm {
         width: 100%;
     }
+}
+
+.sbtn {
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.sbtn: hover {
+    background-color: #b74b4b;
+    color: white;
 }
 
 /* Footer Section*/
