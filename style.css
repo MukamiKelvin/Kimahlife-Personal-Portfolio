@@ -773,7 +773,7 @@ textarea {
     border-radius: 10px;
     background-color: #fff;
 }
-.sbtn: hover {
+.sbtn:hover {
     background-color: #b74b4b;
     color: white;
 }
