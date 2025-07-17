@@ -749,7 +749,7 @@ hr{
     font-size: 20px;
 }
 textarea {
-    border: 1px solid yellow;
+    border: 3px solid yellow;
 }
 
 @media (max-width: 991px) {
