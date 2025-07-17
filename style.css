@@ -771,10 +771,10 @@ textarea {
 .sbtn {
     border: 1px solid #000;
     border-radius: 10px;
-    background-color: #fff;
+    background: #fff;
 }
 .sbtn:hover {
-    background-color: #b74b4b;
+    background: #b74b4b;
     color: white;
 }
 
