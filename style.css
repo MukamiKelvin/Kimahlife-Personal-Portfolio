@@ -381,7 +381,7 @@ span{
     color: #b74b4b;
 }
 .education .heading {
-    color: white;
+    color: black;
     text-align: center;
     padding-bottom: 20px;
     font-size: 20px;
@@ -455,7 +455,7 @@ hr{
 
 .row .sub-title h2{
     position: relative;
-    color: white;
+    color: black;
     font-size: 22px;
     display: inline-block;
     margin-bottom: 30px;
