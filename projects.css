@@ -244,5 +244,9 @@ button {
     color: #fff;
 }
 
+#cityName temperature description humidity wind {
+    color: #fff;
+}
+
 
 /* weather app ends */
