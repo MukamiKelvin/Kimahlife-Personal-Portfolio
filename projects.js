@@ -64,3 +64,51 @@ updateCountdown();
     setTimeout(updateCountdown, 1000)
 
  }
+
+
+// weather app starts
+
+const apiKey = "a23552741f2c30af9089050e66172a05";
+
+
+const searchBtn = document.getElementById("searchBtn");
+const cityInput = document.getElementById("cityInput");
+
+
+searchBtn.addEventListener("click", () => {
+    const city = cityInput.value.trim();
+    if(city) {
+        getWeather(city);
+    }
+});
+
+async function getWeather(city) {
+    const weatherResult = document.getElementById("weatherResult");
+    const errorText = document.getElementById("error");
+
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+
+    try {
+        const response = await fetch(url);
+        if(!response.ok) throw new Error("City not Found");
+
+        const data = await response.json();
+
+        document.getElementById("cityName").textContent = `📍 ${data.name}`;
+    document.getElementById("temperature").textContent = `🌡️ ${data.main.temp}°C`;
+    document.getElementById("description").textContent = `🌥️ ${data.weather[0].description}`;
+    document.getElementById("humidity").textContent = `💧 Humidity: ${data.main.humidity}%`;
+    document.getElementById("wind").textContent = `🌬️ Wind: ${data.wind.speed} km/h`;
+
+     weatherResult.classList.remove("hidden");
+    errorText.classList.add("hidden");
+
+  } catch (error) {
+    weatherResult.classList.add("hidden");
+    errorText.classList.remove("hidden");
+  
+    }
+}
+
+
+//weather app ends
